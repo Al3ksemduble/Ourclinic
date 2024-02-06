@@ -14,7 +14,7 @@ main{
     margin: 20px auto;
     background-color: #fff;
 
-    width: 610px;
+    width: 810px;
     padding: 15px;
     border-radius: 10px;
  }
@@ -39,4 +39,32 @@ main h1 {
 }
 main p {
     margin: 10px;
+}
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+.contain-img{
+    display: flex;
+}
+.contain-img2{
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+}
+.contain-img3{
+    display: flex;
+}
+.contain-img4{
+    display: flex;
+}
+.contain-img4 img{
+    width: 200px;
+}
+.contain-img5{
+    display: flex;
+}
+.contain-img5 img{
+    width: 300px;
+    height: 300px;
 }
