@@ -1,0 +1,59 @@
+@charset "UTF-8";  
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px;
+}
+form input{
+    width: 50%;
+    padding: 10px;
+    transition: 0.3s ease-in;
+    outline: none;
+}
+input:focus {
+    border-radius: 16px;
+}
+textarea{
+    padding: 10px;
+    width: 50%;
+    transition: 0.3s ease-in;
+    margin-bottom: 10px;
+}
+textarea:focus{
+    width: 50%;
+    border-radius: 16px;
+}
+label{
+    margin-top: 10px;
+}
+form button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: 0.1s ease-in;
+}
+form button:hover{
+    border-radius: 16px;
+}
+form button:active{
+    background-color: #d3d3d3;
+}
+.agradecimentos{
+    padding: 20px;
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+    transition: 0.1s ease-in;
+}
+.agradecimentos .btn:hover{
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+.agradecimentos .btn:active{
+    background-color: #333;
+    color: #fff;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ width: auto;
+ height: auto;
+ background-color: #999;
+}
+main{
+    display: block;
+    margin: 20px auto;
+    background-color: #fff;
+
+    width: 610px;
+    padding: 15px;
+    border-radius: 10px;
+ }
+.contain-main h1{
+    font-size: 22px;
+}
+@media(max-width: 950px)
+{
+    main{
+        width: 500px;
+        height: auto;
+    }
+}
+hr {
+    margin: 10px;
+}
+main ul li{
+    margin: 10px;
+}
+main h1 {
+    margin: 10px;
+}
+main p {
+    margin: 10px;
+}

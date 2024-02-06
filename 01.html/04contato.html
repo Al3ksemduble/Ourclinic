@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="../02.css/01header.css" />
+    <link rel="stylesheet" href="../02.css/02footer.css" />
+    <link rel="stylesheet" href="../02.css/03main.css" />
+    <link rel="stylesheet" href="../02.css/05form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <!--contain-header-->
+    <header id="04">
+      <nav>
+        <!--logo-->
+        <a class="logo" href="01principal.html">
+          <div class="logo-logo">
+            <img src="../04.images/logo.png" alt="logo" />
+          </div>
+          <div class="logo-texto">
+            <h1>Ourclinic</h1>
+          </div>
+        </a>
+        <!--end-logo-->
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <!--nav-list-->
+        <ul class="nav-list">
+          <a href="01principal.html">
+            <li class="link-header">Inicio</li>
+          </a>
+
+          <a href="02sobre.html">
+            <li class="link-header">Sobre</li>
+          </a>
+
+          <a href="03horarios.html">
+            <li class="link-header">Horários de atendimento</li>
+          </a>
+
+          <a href="04contato.html">
+            <li class="link-header">Contato</li>
+          </a>
+        </ul>
+        <!--end-nav-list-->
+      </nav>
+    </header>
+    <!--end-contain-header-->
+
+    <!--script-->
+    <script src="../03.js/mobile-navbar.js"></script>
+    <!--end-script-->
+
+    <!--contain-main-->
+    <main>
+      <div class="contain-main">
+        <h1>Contato</h1>
+        <div class="contato">
+          <p>Deseja entrar em contato conosco? Deixe sua mensagem abaixo:</p>
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome:</label
+            ><input
+              type="text"
+              name="nome"
+              placeholder="Digite seu nome"
+              autocomplete="off"
+              required
+            />
+
+            <label>E-mail:</label
+            ><input
+              type="email"
+              name="email"
+              placeholder="Digite seu email"
+              required
+            />
+
+            <label>Mensagem:</label>
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Digite sua mensagem"
+              required
+            ></textarea>
+            <button type="submit">Enviar</button>
+
+            <input
+              type="hidden"
+              name="accessKey"
+              value="6b8625a5-8206-4940-ac8f-c0295f2ff3ae"
+            />
+            <input
+              type="hidden"
+              name="redirectTo"
+              value="http://127.0.0.1:5500/01.html/05obrigado.html"
+            />
+          </form>
+          <hr>
+          <form method="post">
+          </form>
+        </div>
+      </div>
+    </main>
+    <!--end-contain-main-->
+
+    <!--contain-footer-->
+    <div class="contain-footer">
+      <footer>
+        <div class="boxs">
+          <h2>Inicio</h2>
+          <ul>
+            <li><a href="#"> Home </a></li>
+
+            <li><a href="#"> Médicos </a></li>
+
+            <li><a href="#"> Download </a></li>
+          </ul>
+        </div>
+        <div class="boxs">
+          <h2>Informações</h2>
+          <ul>
+            <li><a href="#"> Blog </a></li>
+
+            <li><a href="#"> Contato </a></li>
+
+            <li><a href="#"> Email </a></li>
+          </ul>
+        </div>
+        <div class="boxs">
+          <h2>Suporte</h2>
+          <ul>
+            <li><a href="#"> FAQ </a></li>
+
+            <li><a href="#"> Telefone </a></li>
+
+            <li><a href="#"> Chat </a></li>
+          </ul>
+        </div>
+
+        <div class="boxs">
+          <h2>Sobre nós</h2>
+          <p>
+            <strong>Ourclinic</strong> é uma clínica médica privada que oferece
+            uma variedade de serviços de saúde para a comunidade. A clínica está
+            localizada em uma área conveniente da cidade e oferece serviços de
+            alta qualidade a preços acessíveis.
+          </p>
+        </div>
+      </footer>
+      <div class="footer">
+        <h2>Logo</h2>
+
+        <div class="sociais">
+          <div class="social">
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+
+          <div class="social">
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+
+          <div class="social">
+            <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end-contain-footer-->
+  </body>
+</html>
