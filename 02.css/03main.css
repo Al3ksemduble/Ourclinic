@@ -47,11 +47,6 @@ img {
 .contain-img{
     display: flex;
 }
-.contain-img2{
-    display: flex;
-    height: 250px;
-    justify-content: space-around;
-}
 .contain-img3{
     display: flex;
 }
